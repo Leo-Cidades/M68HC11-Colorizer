@@ -1,6 +1,6 @@
 # Español
 
-Extensión de resaltado de sintaxis para código de Microprocesador 
+Extensión de resaltado de sintaxis para código del Microprocesador 
 M68HC11 en Visual Studio Code.
 
 Resalta:
