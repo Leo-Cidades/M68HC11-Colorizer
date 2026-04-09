@@ -1,6 +1,7 @@
 # Español
 
-Extensión de resaltado de sintaxis para Visual Studio Code para código ensamblador M68HC11.
+Extensión de resaltado de sintaxis para código de Microprocesador 
+M68HC11 en Visual Studio Code.
 
 Resalta:
 - Mnemónicos
@@ -47,7 +48,7 @@ Si VS Code no detecta el lenguaje automáticamente:
 
 # English
 
-Syntax highlighting extension for Visual Studio Code for M68HC11 assembly code.
+Syntax highlighting extension for Visual Studio Code for the microprocessor M68HC11.
 
 It highlights:
 - Mnemonics
