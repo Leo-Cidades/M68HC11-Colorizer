@@ -35,6 +35,8 @@ Si VS Code no detecta el lenguaje automáticamente:
 2. Haz clic en el selector de lenguaje en la esquina inferior derecha.
 3. Selecciona **M68HC11**.
 
+Nota: Para que los comentarios cambien de color, agregar ';' delante de ellos.
+
 ## Qué colorea
 
 - Directivas como `ORG` y `END`
@@ -81,6 +83,8 @@ If VS Code does not detect the language automatically:
 1. Open the file.
 2. Click the language selector in the bottom-right corner.
 3. Select **M68HC11**.
+
+Note: To make the comments change color, add ';' in front of them.
 
 ## What it highlights
 
