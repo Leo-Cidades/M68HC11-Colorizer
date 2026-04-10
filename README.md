@@ -1,6 +1,6 @@
 # M68HC11 Colorizer
 
-<img width="799" height="485" alt="image" src="https://github.com/user-attachments/assets/6f4cd816-021a-4d9f-8442-4221d32d1bdc" />
+<img width="754" height="461" alt="image" src="https://github.com/user-attachments/assets/ed3ebed9-cb46-4dbe-a2a1-56b3794c3bfb" />
 
 # Español
 
