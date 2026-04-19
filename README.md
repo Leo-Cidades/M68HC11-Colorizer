@@ -4,16 +4,22 @@
 
 # Español
 
-Extensión de resaltado de sintaxis para código del Microprocesador 
+Extensión de resaltado de sintaxis para código del Microprocesador  
 M68HC11 en Visual Studio Code.
 
 Resalta:
 - Mnemónicos
-- Instrucciones branch
+- Instrucciones branch y jump
 - Labels del lado izquierdo
 - Referencias a labels del lado derecho
 - Directivas
 - Operandos según el modo de direccionamiento
+- Instrucciones de subrutinas
+- Instrucciones de stack
+
+También agrega:
+- Plegado de bloques por `ORG`
+- Plegado de bloques por labels
 
 ## Instalación
 
@@ -41,26 +47,46 @@ Si VS Code no detecta el lenguaje automáticamente:
 
 ## Qué colorea
 
-- Directivas como `ORG` y `END`
+- Directivas como `p68H11`, `p68HC11`, `ORG` y `END`
 - Mnemónicos normales
-- Instrucciones de branch
+- Instrucciones de branch y jump
 - Labels definidos a la izquierda
 - Referencias a labels a la derecha
-- Operandos según el modo de direccionamiento
+- Instrucciones de subrutinas como `JSR`, `BSR` y `RTS`
+- Referencias y definiciones de subrutinas con color propio
+- Instrucciones de stack como `PSHA`, `PSHB`, `PSHX`, `PSHY`, `PULA`, `PULB`, `PULX`, `PULY`, `TSX`, `TXS`, `LDS`, `STS`, `INS` y `DES`
+- Operandos según el modo de direccionamiento:
+  - Inmediato
+  - Directo
+  - Extendido
+  - Indexado
+  - Relativo
+
+## Funciones extra
+
+- Plegado de bloques por `ORG`
+- Plegado de bloques por labels
+- Mejor separación visual entre labels normales y subrutinas
 
 ---
 
 # English
 
-Syntax highlighting extension for Visual Studio Code for the microprocessor M68HC11.
+Syntax highlighting extension for Visual Studio Code for the M68HC11 microprocessor.
 
 It highlights:
 - Mnemonics
-- Branch instructions
+- Branch and jump instructions
 - Left-side labels
 - Right-side label references
 - Directives
 - Operands by addressing mode
+- Subroutine instructions
+- Stack instructions
+
+It also adds:
+- Code folding for `ORG` blocks
+- Code folding for label blocks
 
 ## Installation
 
@@ -88,9 +114,23 @@ If VS Code does not detect the language automatically:
 
 ## What it highlights
 
-- Directives such as `ORG` and `END`
+- Directives such as `p68H11`, `p68HC11`, `ORG`, and `END`
 - Regular mnemonics
-- Branch instructions
+- Branch and jump instructions
 - Left-side labels
 - Right-side label references
-- Operands based on addressing mode
+- Subroutine instructions such as `JSR`, `BSR`, and `RTS`
+- Subroutine references and definitions with a dedicated color
+- Stack instructions such as `PSHA`, `PSHB`, `PSHX`, `PSHY`, `PULA`, `PULB`, `PULX`, `PULY`, `TSX`, `TXS`, `LDS`, `STS`, `INS`, and `DES`
+- Operands based on addressing mode:
+  - Immediate
+  - Direct
+  - Extended
+  - Indexed
+  - Relative
+
+## Extra features
+
+- `ORG` block folding
+- Label block folding
+- Better visual distinction between regular labels and subroutines
